@@ -1,0 +1,22 @@
+{
+  "name": "Goiás Máquinas - Aluguel de Equipamentos",
+  "short_name": "Goiás Máquinas",
+  "description": "Aluguel de máquinas e equipamentos profissionais em Uberlândia - MG",
+  "start_url": "/aluguel-de-maquinas-e-equipamentos",
+  "display": "standalone",
+  "background_color": "#FDF3EE",
+  "theme_color": "#EC692D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Ccircle cx='96' cy='96' r='96' fill='%23EC692D'/%3E%3Ctext x='96' y='120' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='80'%3EGM%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Ccircle cx='256' cy='256' r='256' fill='%23EC692D'/%3E%3Ctext x='256' y='320' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='210'%3EGM%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
