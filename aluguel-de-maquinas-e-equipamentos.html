@@ -799,23 +799,26 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
   width:72px;
   height:72px;
   border-radius:50%;
-  margin:0 auto;
-  background:rgba(236,105,45,0.1);
+  margin:0 auto 20px;
+  background:rgba(236,105,45,0.12);
   display:flex;
   align-items:center;
   justify-content:center;
-  margin-bottom:20px;
   color:var(--primaria);
   transition:all var(--transition);
-  overflow:hidden;
 }
-.card-icon img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
+.card-icon svg{
+  width:36px;
+  height:36px;
+  stroke:currentColor;
+  fill:none;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
 }
 .card:hover .card-icon{
   transform:scale(1.05);
+  background:rgba(236,105,45,0.2);
   box-shadow:0 4px 12px rgba(236,105,45,0.3);
 }
 .card h3{font-size:1.15rem;margin-bottom:10px}
@@ -1479,48 +1482,48 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 
     <div class="cards-grid">
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/equipe qualificada.png" alt="Equipe Qualificada">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
         </div>
         <h3>Equipe Qualificada</h3>
         <p>Profissionais treinados e experientes para orientar na escolha do equipamento ideal para cada tipo de projeto e necessidade.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/atendimento especializado.png" alt="Atendimento Especializado">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1v-7h3v5z"/><path d="M3 19a2 2 0 002 2h1v-7H3v5z"/></svg>
         </div>
         <h3>Atendimento Especializado</h3>
         <p>Atendimento personalizado do início ao fim. Entendemos suas necessidades e encontramos a melhor solução em equipamentos.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/preço justo.png" alt="Preço Justo">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M20.6 13.4L13.4 20.6a2 2 0 01-2.8 0l-7.6-7.6V3h10l7.6 7.6a2 2 0 010 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
         </div>
         <h3>Preço Justo</h3>
         <p>Valores competitivos e transparentes. Orçamentos personalizados sem surpresas, com condições especiais para locações prolongadas.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/Assistencia Tecnica.png" alt="Assistência Técnica">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
         </div>
         <h3>Assistência Técnica</h3>
         <p>Suporte técnico incluso durante todo o período de locação. Qualquer problema, nossa equipe resolve rapidamente.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/produtos de qualidade.png" alt="Produtos de Qualidade">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M8.5 12l2.5 2.5L15.5 10"/></svg>
         </div>
         <h3>Produtos de Qualidade</h3>
         <p>Equipamentos de marcas reconhecidas, revisados e em perfeito estado de funcionamento para garantir segurança e eficiência.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">
-          <img src="Goias Maquinas LP Locacao/entrega e retirada.png" alt="Entrega e Retirada">
+        <div class="card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M1 4h14v12H1z"/><path d="M15 8h4l4 4v4h-8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
         </div>
         <h3>Entrega e Retirada</h3>
         <p>Logística completa com entrega e retirada dos equipamentos no local do seu projeto em Uberlândia e região.</p>
