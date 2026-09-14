@@ -25,6 +25,13 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/aluguel-de-maquinas-e-equipamentos",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/aluguel-de-maquinas-e-equipamentos",
