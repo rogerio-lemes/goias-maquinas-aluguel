@@ -458,7 +458,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
   border-radius:12px;
   transition:all var(--transition);
 }
-.mobile-menu a:hover{background:rgba(236,105,45,0.08);color:var(--primaria)}
+.mobile-menu a:hover{background:var(--primaria);color:var(--branco)}
 .mobile-menu .btn{margin-top:16px;text-align:center}
 
 /* ============================================
@@ -1060,13 +1060,22 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 }
 .footer-social a:hover{background:var(--primaria);color:var(--branco)}
 
-.footer-links li{margin-bottom:10px}
+.footer-links li{margin-bottom:6px}
 .footer-links a{
   font-size:0.9rem;
   transition:all var(--transition);
-  display:inline-flex;align-items:center;gap:6px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:6px 12px;
+  margin-left:-12px;
+  border-radius:8px;
 }
-.footer-links a:hover{color:var(--primaria);transform:translateX(4px)}
+.footer-links a:hover{
+  background:var(--primaria);
+  color:var(--branco);
+  transform:translateX(4px);
+}
 
 .footer-contact li{
   display:flex;align-items:flex-start;gap:10px;
